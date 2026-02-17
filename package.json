@@ -1,0 +1,16 @@
+{
+  "name": "smoke-control",
+  "version": "1.0.0",
+  "description": "Telegram bot for managing smoking schedule",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
